@@ -13,7 +13,7 @@ services:
       - mlflow
       - postgres
     networks:
-      - ml-network
+      - ml-flask-docker_ml-network
 
   mlflow:
     build:
